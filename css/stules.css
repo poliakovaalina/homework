@@ -79,9 +79,11 @@ header {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
+
 }
 .navigation-links a:hover,
 .navigation-links a:focus{
+  color: aqua
 
 }
 
@@ -102,16 +104,20 @@ section {
   display: inline-block;
   width: 420px;
   margin-right: 60px;
+  margin-bottom: 134px;
 }
 
 .block-page:nth-child(2n) {
   margin-right: 0;
 }
+.block-page:nth-last-child(-n+3){
+  margin-bottom: 0;
+}
 
 .block-page p  {
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 54px;
+  /*margin-bottom: 54px;*/
 }
 
 .block-page h2 {
@@ -126,6 +132,7 @@ section {
 }
 
 button{
+  display: block;
     border: 1px solid black;
     margin-bottom: 70px;
     padding-top: 22px;
@@ -135,8 +142,10 @@ button{
     cursor: pointer;
     font-size: 20px;
     background-color: transparent;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 358px;
+    margin-right: 370px;
+    margin-top: 50px;
+    text-align: center;
     
 }
 
