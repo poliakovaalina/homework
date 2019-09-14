@@ -62,25 +62,38 @@ header {
   margin: 0 auto;
 }
 
+.all{
+  padding-bottom: 60px;
+}
+
 .navigation{
-    margin-top: 74px;
-    margin-bottom: 92px;
+  padding-top: 74px;
+  padding-bottom: 92px;
+  text-align: center;
 }
 
 .navigation li {
   display: inline-block;
+}
+
+.navigation-links li:not(:last-child){
   margin-right: 60px;
 }
 
+li{
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
 .navigation-links {
-  list-style: none;
+
   margin: 0;
   padding: 0;
-  text-align: center;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: rgb(98, 98, 98);
-  line-height: 24px;
+  font-size: 0;
 
 }
 .navigation-links a:hover,
@@ -91,9 +104,17 @@ header {
 
 a {
   text-decoration: none;
+  display: block;
+  color: rgb(98, 98, 98);
 }
+a:hover,
+a:focus{
+  color: #03a9f4;
+}
+
 section {
-  font-size: 0;
+ padding-bottom: 70px;
+ font-size: 0;
 }
 
 /*img {
@@ -106,50 +127,52 @@ section {
   display: inline-block;
   width: 420px;
   margin-right: 60px;
-  margin-bottom: 134px;
+  margin-bottom: 130px;
+}
+.image_1{
+  margin-bottom: 30px;
 }
 
 .block-page:nth-child(2n) {
   margin-right: 0;
 }
-.block-page:nth-last-child(-n+3){
-  margin-bottom: 0;
-}
 
-.block-page p:not(.subtitle) {
-  font-size: 14px;
-  line-height: 24px;
-  color:rgb(98, 98, 98);
-  font-family: 'Playfair Display', serif;
-
-}
 
 .block-page h2 {
   font-size: 30px;
   color: rgb(98, 98, 98);
   line-height: 1.2;
-  margin-bottom: 34px;
   font-family: 'Playfair Display', serif;
+  margin: 0;
 }
 
 .subtitle {
   font-size: 14px;
   text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 24px;
+  margin: 0;
   color: rgb(180, 173, 158);
   line-height: 1.2;
   font-family: 'Ubuntu', sans-serif;
 }
+.subtitle_2{
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.714;
+  color: rgb(98, 98, 98);
+}
 
 button{
+  font-family: 'Playfair Display', serif;
+  color: rgb(98, 98, 98);
   display: block;
-    border: 1px solid black;
+    border-style: solid;
+    border-width: 1px;
     padding: 22px 40px 20px 32px; 
     cursor: pointer;
     font-size: 20px;
     background-color: transparent;
-    margin: 50px 370px 70px 358px;
+    margin: 0 370px 0 358px;
     color: rgb(98, 98, 98);
      line-height: 1.2;
     /*text-align: center;*/
